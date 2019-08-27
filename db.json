@@ -209,48 +209,6 @@
                     "price" : 180
                 }
             ]
-        },
-        {
-            "id" : 6,
-            "name" : "El rey del Pollo",
-            "description" : "Rotisería, especialidad en pollo a la parrilla.",
-            "food" : [
-                {
-                    "id" : 1,
-                    "name" : "TORTILLA DE PATATAS (España)",
-                    "description" : "Una deliciosa mezcla de patatas fritas, huevos y todos los ingredientes que le quieras añadir.",
-                    "image" : "https://st-listas.20minutos.es/images/2017-11/425492/5242348_249px.jpg?1512259218",
-                    "price" : 187
-                },
-                {
-                    "id" : 2,
-                    "name" : "PIZZA (Italia)",
-                    "description" : "Masa horneada elaborada con harina de trigo, sal, agua y levadura, y cubierto con salsa de tomate y los ingredientes qué le quieras añadir.",
-                    "image" : "https://st-listas.20minutos.es/images/2017-11/425492/5242347_249px.jpg?1512259218",
-                    "price" : 230
-                },
-                {
-                    "id" : 3,
-                    "name" : "HUEVOS FRITOS CON CHORIZO (España)",
-                    "description" : "Así de simple, huevos, chorizo, sal al gusto y si quieres unas patatitas.",
-                    "image" : "https://st-listas.20minutos.es/images/2017-11/425492/5242448_249px.jpg?1512259218",
-                    "price" : 275
-                },
-                {
-                    "id" : 4,
-                    "name" : "BOCATA DE CALAMARES (España)",
-                    "description" : "Calamares rebozados en harina y fritos en aceite, mejor de oliva; Exquisito y económico.",
-                    "image" : "https://st-listas.20minutos.es/images/2017-11/425492/5243818_249px.jpg?1512259218",
-                    "price" : 183
-                },
-                {
-                    "id" : 5,
-                    "name" : "SPAGUETTI CARBONARA (Italia)",
-                    "description" : "La receta original se basa en huevos, queso pecorino romano o parmesano, aceite de oliva virgen extra, guanciale y pimienta negra.",
-                    "image" : "https://st-listas.20minutos.es/images/2017-11/425492/5242451_249px.jpg?1512259218",
-                    "price" : 256
-                }
-            ]
         }
     ]
 }
