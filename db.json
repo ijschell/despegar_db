@@ -6,39 +6,54 @@
             "description": "Comida Europea, Internacional y Parrillada.",
             "food": [
                 {
-                    "id": 1,
-                    "name": "TORTILLA DE PATATAS (España)",
-                    "description": "Una deliciosa mezcla de patatas fritas, huevos y todos los ingredientes que le quieras añadir.",
-                    "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242348_249px.jpg?1512259218",
-                    "price": 187
+                    "cat" : "Pizzas",
+                    "menu" : [
+                        {
+                            "id": 2,
+                            "name": "PIZZA (Italia)",
+                            "description": "Masa horneada elaborada con harina de trigo, sal, agua y levadura, y cubierto con salsa de tomate y los ingredientes qué le quieras añadir.",
+                            "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242347_249px.jpg?1512259218",
+                            "price": 230
+                        }
+                    ]
                 },
                 {
-                    "id": 2,
-                    "name": "PIZZA (Italia)",
-                    "description": "Masa horneada elaborada con harina de trigo, sal, agua y levadura, y cubierto con salsa de tomate y los ingredientes qué le quieras añadir.",
-                    "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242347_249px.jpg?1512259218",
-                    "price": 230
+                    "cat" : "Pastas",
+                    "menu" : [
+                        {
+                            "id": 5,
+                            "name": "SPAGUETTI CARBONARA (Italia)",
+                            "description": "La receta original se basa en huevos, queso pecorino romano o parmesano, aceite de oliva virgen extra, guanciale y pimienta negra.",
+                            "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242451_249px.jpg?1512259218",
+                            "price": 256
+                        }
+                    ]
                 },
                 {
-                    "id": 3,
-                    "name": "HUEVOS FRITOS CON CHORIZO (España)",
-                    "description": "Así de simple, huevos, chorizo, sal al gusto y si quieres unas patatitas.",
-                    "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242448_249px.jpg?1512259218",
-                    "price": 275
-                },
-                {
-                    "id": 4,
-                    "name": "BOCATA DE CALAMARES (España)",
-                    "description": "Calamares rebozados en harina y fritos en aceite, mejor de oliva; Exquisito y económico.",
-                    "image": "https://st-listas.20minutos.es/images/2017-11/425492/5243818_249px.jpg?1512259218",
-                    "price": 183
-                },
-                {
-                    "id": 5,
-                    "name": "SPAGUETTI CARBONARA (Italia)",
-                    "description": "La receta original se basa en huevos, queso pecorino romano o parmesano, aceite de oliva virgen extra, guanciale y pimienta negra.",
-                    "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242451_249px.jpg?1512259218",
-                    "price": 256
+                    "cat" : "Otros",
+                    "menu" : [
+                        {
+                            "id": 1,
+                            "name": "TORTILLA DE PATATAS (España)",
+                            "description": "Una deliciosa mezcla de patatas fritas, huevos y todos los ingredientes que le quieras añadir.",
+                            "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242348_249px.jpg?1512259218",
+                            "price": 187
+                        },
+                        {
+                            "id": 3,
+                            "name": "HUEVOS FRITOS CON CHORIZO (España)",
+                            "description": "Así de simple, huevos, chorizo, sal al gusto y si quieres unas patatitas.",
+                            "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242448_249px.jpg?1512259218",
+                            "price": 275
+                        },
+                        {
+                            "id": 4,
+                            "name": "BOCATA DE CALAMARES (España)",
+                            "description": "Calamares rebozados en harina y fritos en aceite, mejor de oliva; Exquisito y económico.",
+                            "image": "https://st-listas.20minutos.es/images/2017-11/425492/5243818_249px.jpg?1512259218",
+                            "price": 183
+                        }
+                    ]
                 }
             ]
         },
@@ -48,39 +63,54 @@
             "description": "Comida Peruana, Parrilla y Ensaladas",
             "food": [
                 {
-                    "id": 1,
-                    "name": "Un divino lomo saltado.",
-                    "description": "Este un plato típico de la comida chifa (como le llaman a los platillos y restaurantes chinos-peruanos). Lleva salsa soya y se cocina en un wok, sin embargo, hay un saborcito criollo que lo hace diferente a cualquier comida 100% cantonesa.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/8/19/asset/buzzfeed-prod-web-04/sub-buzz-31420-1525821073-3.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
-                    "price": 268
+                    "cat" : "Carnes",
+                    "menu" : [
+                        {
+                            "id": 1,
+                            "name": "Un divino lomo saltado.",
+                            "description": "Este un plato típico de la comida chifa (como le llaman a los platillos y restaurantes chinos-peruanos). Lleva salsa soya y se cocina en un wok, sin embargo, hay un saborcito criollo que lo hace diferente a cualquier comida 100% cantonesa.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/8/19/asset/buzzfeed-prod-web-04/sub-buzz-31420-1525821073-3.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
+                            "price": 268
+                        },
+                        {
+                            "id": 5,
+                            "name": "Arroz tapado de carne.",
+                            "description": "El arroz tapado es un plato peruano que no solo es una completa delicia, sino que además es súper fácil de preparar.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/14/asset/buzzfeed-prod-web-05/sub-buzz-8158-1525891776-1.jpg?downsize=800:*&output-format=auto&output-quality=auto",
+                            "price": 256
+                        }
+                    ]
                 },
                 {
-                    "id": 2,
-                    "name": "Causa limeña de pollo, la torre del sabor.",
-                    "description": "Este clásico plato de la gastronomía peruana se disfruta frío, y consiste en un puré de patatas amarillas relleno de lo que gustes: puede ser pollo, pescado, o incluso solo vegetales.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/13/asset/buzzfeed-prod-web-03/sub-buzz-19641-1525887724-7.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
-                    "price": 230
+                    "cat" : "Pescados",
+                    "menu" : [
+                        {
+                            "id": 3,
+                            "name": "Bocaditos de salmón rellenos de causa.",
+                            "description": "Esta es una versión gourmet del histórico y tradicional plato peruano que vimos arriba. Es ideal para aperitivos de fiesta o, simplemente, cuando hiciste una causa limeña y te sobró.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/17/asset/buzzfeed-prod-web-02/sub-buzz-18794-1525902586-1.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
+                            "price": 323
+                        },
+                        {
+                            "id": 4,
+                            "name": "BOCATA DE CALAMARES (España)",
+                            "description": "Calamares rebozados en harina y fritos en aceite, mejor de oliva; Exquisito y económico.",
+                            "image": "",
+                            "price": 183
+                        }
+                    ]
                 },
                 {
-                    "id": 3,
-                    "name": "Bocaditos de salmón rellenos de causa.",
-                    "description": "Esta es una versión gourmet del histórico y tradicional plato peruano que vimos arriba. Es ideal para aperitivos de fiesta o, simplemente, cuando hiciste una causa limeña y te sobró.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/17/asset/buzzfeed-prod-web-02/sub-buzz-18794-1525902586-1.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
-                    "price": 323
-                },
-                {
-                    "id": 4,
-                    "name": "BOCATA DE CALAMARES (España)",
-                    "description": "Calamares rebozados en harina y fritos en aceite, mejor de oliva; Exquisito y económico.",
-                    "image": "",
-                    "price": 183
-                },
-                {
-                    "id": 5,
-                    "name": "Arroz tapado de carne.",
-                    "description": "El arroz tapado es un plato peruano que no solo es una completa delicia, sino que además es súper fácil de preparar.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/14/asset/buzzfeed-prod-web-05/sub-buzz-8158-1525891776-1.jpg?downsize=800:*&output-format=auto&output-quality=auto",
-                    "price": 256
+                    "cat" : "Pollo",
+                    "menu" : [
+                        {
+                            "id": 2,
+                            "name": "Causa limeña de pollo, la torre del sabor.",
+                            "description": "Este clásico plato de la gastronomía peruana se disfruta frío, y consiste en un puré de patatas amarillas relleno de lo que gustes: puede ser pollo, pescado, o incluso solo vegetales.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/13/asset/buzzfeed-prod-web-03/sub-buzz-19641-1525887724-7.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
+                            "price": 230
+                        }
+                    ]
                 }
             ]
         },
@@ -90,39 +120,54 @@
             "description": "Comida China, Ensaladas, Carnes, Pastas",
             "food": [
                 {
-                    "id": 1,
-                    "name": "Tallarines Chinos",
-                    "description": "El aceite de sésamo es un ingrediente importante para que estos tallarines te queden como de restaurante.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr05/original-grid-image-20993-1457120411-6.jpg?crop=480:480;80,0&downsize=600:*&output-format=auto&output-quality=auto",
-                    "price": 210
+                    "cat" : "Pollo",
+                    "menu" : [
+                        {
+                            "id": 2,
+                            "name": "Un cítrico y sabrosito pollo con piña.",
+                            "description": "Si te gusta la comida china, el pollo a la naranja lo has comido hasta el cansancio... pero lo que debes saber es que puedes usar otros jugos cítricos para darle sabor a ese pollo especial que quieres preparar.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/13/enhanced/webdr11/original-grid-image-27110-1457116824-7.jpg?crop=527:791;0,-1&downsize=400:*&output-format=auto&output-quality=auto",
+                            "price": 257
+                        },
+                        {
+                            "id": 4,
+                            "name": "Un divino pollo agridulce. Yummy.",
+                            "description": "Es prácticamente imposible odiar el sabor de la salsa agridulce, es algo que está hecho para alegrarlos a todos por igual.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr02/original-grid-image-31072-1457119091-6.jpg?crop=446:446;147,0&downsize=600:*&output-format=auto&output-quality=auto",
+                            "price": 280
+                        },
+                        {
+                            "id": 3,
+                            "name": "Arroz chino tres delicias con pollo al limón",
+                            "description": "Camarones, huevo, jamoncito y tus vegetales de confianza, todo esto salteado y usando una base de arroz.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/15/enhanced/webdr09/original-grid-image-27274-1457121968-6.jpg?crop=650:650;0,62&downsize=400:*&output-format=auto&output-quality=auto",
+                            "price": 227
+                        }
+                    ]
                 },
                 {
-                    "id": 2,
-                    "name": "Un cítrico y sabrosito pollo con piña.",
-                    "description": "Si te gusta la comida china, el pollo a la naranja lo has comido hasta el cansancio... pero lo que debes saber es que puedes usar otros jugos cítricos para darle sabor a ese pollo especial que quieres preparar.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/13/enhanced/webdr11/original-grid-image-27110-1457116824-7.jpg?crop=527:791;0,-1&downsize=400:*&output-format=auto&output-quality=auto",
-                    "price": 257
+                    "cat" : "Pastas",
+                    "menu" : [
+                        {
+                            "id": 1,
+                            "name": "Tallarines Chinos",
+                            "description": "El aceite de sésamo es un ingrediente importante para que estos tallarines te queden como de restaurante.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr05/original-grid-image-20993-1457120411-6.jpg?crop=480:480;80,0&downsize=600:*&output-format=auto&output-quality=auto",
+                            "price": 210
+                        }
+                    ]
                 },
                 {
-                    "id": 3,
-                    "name": "Arroz chino tres delicias",
-                    "description": "Camarones, huevo, jamoncito y tus vegetales de confianza, todo esto salteado y usando una base de arroz.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/15/enhanced/webdr09/original-grid-image-27274-1457121968-6.jpg?crop=650:650;0,62&downsize=400:*&output-format=auto&output-quality=auto",
-                    "price": 227
-                },
-                {
-                    "id": 4,
-                    "name": "Un divino pollo agridulce. Yummy.",
-                    "description": "Es prácticamente imposible odiar el sabor de la salsa agridulce, es algo que está hecho para alegrarlos a todos por igual.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr02/original-grid-image-31072-1457119091-6.jpg?crop=446:446;147,0&downsize=600:*&output-format=auto&output-quality=auto",
-                    "price": 280
-                },
-                {
-                    "id": 5,
-                    "name": "Un calientita sopa de maíz y pollo, para el alma.",
-                    "description": "Qué bien le cae esta sopita al cuerpo, y ni hablar del sabor que le regala a tu paladar. La idea es hacer un sencillo caldito con pedazos de pollo, ajo y jengibre.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr04/original-grid-image-15396-1457119462-15.jpg?crop=683:683;7,0&downsize=400:*&output-format=auto&output-quality=auto",
-                    "price": 170
+                    "cat" : "Sopas",
+                    "menu" : [
+                        {
+                            "id": 5,
+                            "name": "Un calientita sopa de maíz y pollo, para el alma.",
+                            "description": "Qué bien le cae esta sopita al cuerpo, y ni hablar del sabor que le regala a tu paladar. La idea es hacer un sencillo caldito con pedazos de pollo, ajo y jengibre.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr04/original-grid-image-15396-1457119462-15.jpg?crop=683:683;7,0&downsize=400:*&output-format=auto&output-quality=auto",
+                            "price": 170
+                        }
+                    ]
                 }
             ]
         },
@@ -132,39 +177,44 @@
             "description": "Casa de empanadas, especialidades",
             "food": [
                 {
-                    "id": 1,
-                    "name": "Carne con Aceitunas",
-                    "description": "Carne, aceitunas, cebolla y morrón",
-                    "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0001.png",
-                    "price": 55
-                },
-                {
-                    "id": 2,
-                    "name": "Carne Criolla",
-                    "description": "Carne cortada al cuchillo, cebolla y morrón",
-                    "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0002.png",
-                    "price": 55
-                },
-                {
-                    "id": 3,
-                    "name": "Carne con Pasas",
-                    "description": "Carne, cebolla, morrón y pasas de uva.",
-                    "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0003.png",
-                    "price": 55
-                },
-                {
-                    "id": 4,
-                    "name": "Carne",
-                    "description": "Carne, cebolla y morrón",
-                    "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0004.png",
-                    "price": 55
-                },
-                {
-                    "id": 5,
-                    "name": "Carne Chilena",
-                    "description": "Carne, aceitunas, cebolla, morrón y picante.",
-                    "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0006.png",
-                    "price": 55
+                    "cat" : "Carnes",
+                    "menu" : [
+                        {
+                            "id": 1,
+                            "name": "Carne con Aceitunas",
+                            "description": "Carne, aceitunas, cebolla y morrón",
+                            "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0001.png",
+                            "price": 55
+                        },
+                        {
+                            "id": 2,
+                            "name": "Carne Criolla",
+                            "description": "Carne cortada al cuchillo, cebolla y morrón",
+                            "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0002.png",
+                            "price": 55
+                        },
+                        {
+                            "id": 3,
+                            "name": "Carne con Pasas",
+                            "description": "Carne, cebolla, morrón y pasas de uva.",
+                            "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0003.png",
+                            "price": 55
+                        },
+                        {
+                            "id": 4,
+                            "name": "Carne",
+                            "description": "Carne, cebolla y morrón",
+                            "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0004.png",
+                            "price": 55
+                        },
+                        {
+                            "id": 5,
+                            "name": "Carne Chilena",
+                            "description": "Carne, aceitunas, cebolla, morrón y picante.",
+                            "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0006.png",
+                            "price": 55
+                        }
+                    ]
                 }
             ]
         },
@@ -174,39 +224,49 @@
             "description": "Rotisería, especialidad en minutas, milanesas, pizzas y pastas.",
             "food": [
                 {
-                    "id": 1,
-                    "name": "Asado",
-                    "description": "Uruguay tiene un récord por el asado más grande del mundo, haciendo honor a una tradición que llega de la época de los gauchos.",
-                    "image": "https://republica.com.uy/wp-content/uploads/2014/07/Asado.jpg",
-                    "price": 273
+                    "cat" : "Carnes",
+                    "menu" : [
+                        {
+                            "id": 1,
+                            "name": "Asado",
+                            "description": "Uruguay tiene un récord por el asado más grande del mundo, haciendo honor a una tradición que llega de la época de los gauchos.",
+                            "image": "https://republica.com.uy/wp-content/uploads/2014/07/Asado.jpg",
+                            "price": 273
+                        },
+                        {
+                            "id": 2,
+                            "name": "Chivito",
+                            "description": "Este emparedado de carne de lomo y diversos ingredientes como ser queso, jamón, tomate, lechuga, aceitunas, mayonesa.",
+                            "image": "https://republica.com.uy/wp-content/uploads/2014/07/Chivito.jpg",
+                            "price": 350
+                        },
+                        {
+                            "id": 3,
+                            "name": "Milanesa",
+                            "description": "Frita, al horno, al pan con lechuga y tomate o a la napolitana (con salsa de tomate, jamón y muzzarella), la milanesa de carne es una de las comidas...",
+                            "image": "https://republica.com.uy/wp-content/uploads/2014/07/Milanesa.jpg",
+                            "price": 333
+                        },
+                        {
+                            "id": 4,
+                            "name": "Panchos",
+                            "description": "Hot dog, perrito caliente, frankfurter… Este integrante del menú tiene varios nombres en todas partes del mundo, pero aquí es el pancho.",
+                            "image": "https://republica.com.uy/wp-content/uploads/2014/07/Pancho.jpg",
+                            "price": 57
+                        }
+                    ]
                 },
                 {
-                    "id": 2,
-                    "name": "Chivito",
-                    "description": "Este emparedado de carne de lomo y diversos ingredientes como ser queso, jamón, tomate, lechuga, aceitunas, mayonesa.",
-                    "image": "https://republica.com.uy/wp-content/uploads/2014/07/Chivito.jpg",
-                    "price": 350
-                },
-                {
-                    "id": 3,
-                    "name": "Milanesa",
-                    "description": "Frita, al horno, al pan con lechuga y tomate o a la napolitana (con salsa de tomate, jamón y muzzarella), la milanesa de carne es una de las comidas...",
-                    "image": "https://republica.com.uy/wp-content/uploads/2014/07/Milanesa.jpg",
-                    "price": 333
-                },
-                {
-                    "id": 4,
-                    "name": "Panchos",
-                    "description": "Hot dog, perrito caliente, frankfurter… Este integrante del menú tiene varios nombres en todas partes del mundo, pero aquí es el pancho.",
-                    "image": "https://republica.com.uy/wp-content/uploads/2014/07/Pancho.jpg",
-                    "price": 57
-                },
-                {
-                    "id": 5,
-                    "name": "Pizza y fainá",
-                    "description": "La influencia italiana en Uruguay se hace aún más notoria en la cantidad de pizzerías y fábricas de pasta que se encuentran dispersas por todo el país.",
-                    "image": "https://republica.com.uy/wp-content/uploads/2014/07/pizza-faina.jpg",
-                    "price": 180
+                    "cat" : "Pizzas",
+                    "menu" : [
+                        {
+                            "id": 5,
+                            "name": "Pizza y fainá",
+                            "description": "La influencia italiana en Uruguay se hace aún más notoria en la cantidad de pizzerías y fábricas de pasta que se encuentran dispersas por todo el país.",
+                            "image": "https://republica.com.uy/wp-content/uploads/2014/07/pizza-faina.jpg",
+                            "price": 180
+                        }
+                    ]
                 }
             ]
         },
@@ -216,39 +276,54 @@
             "description": "Rotisería, especialidad en pollo a la parrilla.",
             "food": [
                 {
-                    "id": 1,
-                    "name": "TORTILLA DE PATATAS (España)",
-                    "description": "Una deliciosa mezcla de patatas fritas, huevos y todos los ingredientes que le quieras añadir.",
-                    "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242348_249px.jpg?1512259218",
-                    "price": 187
+                    "cat" : "Pizzas",
+                    "menu" : [
+                        {
+                            "id": 2,
+                            "name": "PIZZA (Italia)",
+                            "description": "Masa horneada elaborada con harina de trigo, sal, agua y levadura, y cubierto con salsa de tomate y los ingredientes qué le quieras añadir.",
+                            "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242347_249px.jpg?1512259218",
+                            "price": 230
+                        }
+                    ]
                 },
                 {
-                    "id": 2,
-                    "name": "PIZZA (Italia)",
-                    "description": "Masa horneada elaborada con harina de trigo, sal, agua y levadura, y cubierto con salsa de tomate y los ingredientes qué le quieras añadir.",
-                    "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242347_249px.jpg?1512259218",
-                    "price": 230
+                    "cat" : "Pastas",
+                    "menu" : [
+                        {
+                            "id": 5,
+                            "name": "SPAGUETTI CARBONARA (Italia)",
+                            "description": "La receta original se basa en huevos, queso pecorino romano o parmesano, aceite de oliva virgen extra, guanciale y pimienta negra.",
+                            "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242451_249px.jpg?1512259218",
+                            "price": 256
+                        }
+                    ]
                 },
                 {
-                    "id": 3,
-                    "name": "HUEVOS FRITOS CON CHORIZO (España)",
-                    "description": "Así de simple, huevos, chorizo, sal al gusto y si quieres unas patatitas.",
-                    "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242448_249px.jpg?1512259218",
-                    "price": 275
-                },
-                {
-                    "id": 4,
-                    "name": "BOCATA DE CALAMARES (España)",
-                    "description": "Calamares rebozados en harina y fritos en aceite, mejor de oliva; Exquisito y económico.",
-                    "image": "https://st-listas.20minutos.es/images/2017-11/425492/5243818_249px.jpg?1512259218",
-                    "price": 183
-                },
-                {
-                    "id": 5,
-                    "name": "SPAGUETTI CARBONARA (Italia)",
-                    "description": "La receta original se basa en huevos, queso pecorino romano o parmesano, aceite de oliva virgen extra, guanciale y pimienta negra.",
-                    "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242451_249px.jpg?1512259218",
-                    "price": 256
+                    "cat" : "Otros",
+                    "menu" : [
+                        {
+                            "id": 1,
+                            "name": "TORTILLA DE PATATAS (España)",
+                            "description": "Una deliciosa mezcla de patatas fritas, huevos y todos los ingredientes que le quieras añadir.",
+                            "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242348_249px.jpg?1512259218",
+                            "price": 187
+                        },
+                        {
+                            "id": 3,
+                            "name": "HUEVOS FRITOS CON CHORIZO (España)",
+                            "description": "Así de simple, huevos, chorizo, sal al gusto y si quieres unas patatitas.",
+                            "image": "https://st-listas.20minutos.es/images/2017-11/425492/5242448_249px.jpg?1512259218",
+                            "price": 275
+                        },
+                        {
+                            "id": 4,
+                            "name": "BOCATA DE CALAMARES (España)",
+                            "description": "Calamares rebozados en harina y fritos en aceite, mejor de oliva; Exquisito y económico.",
+                            "image": "https://st-listas.20minutos.es/images/2017-11/425492/5243818_249px.jpg?1512259218",
+                            "price": 183
+                        }
+                    ]
                 }
             ]
         },
@@ -258,39 +333,54 @@
             "description": "Comida Japonesa, comida Peruana.",
             "food": [
                 {
-                    "id": 1,
-                    "name": "Un divino lomo saltado.",
-                    "description": "Este un plato típico de la comida chifa (como le llaman a los platillos y restaurantes chinos-peruanos). Lleva salsa soya y se cocina en un wok, sin embargo, hay un saborcito criollo que lo hace diferente a cualquier comida 100% cantonesa.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/8/19/asset/buzzfeed-prod-web-04/sub-buzz-31420-1525821073-3.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
-                    "price": 268
+                    "cat" : "Carnes",
+                    "menu" : [
+                        {
+                            "id": 1,
+                            "name": "Un divino lomo saltado.",
+                            "description": "Este un plato típico de la comida chifa (como le llaman a los platillos y restaurantes chinos-peruanos). Lleva salsa soya y se cocina en un wok, sin embargo, hay un saborcito criollo que lo hace diferente a cualquier comida 100% cantonesa.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/8/19/asset/buzzfeed-prod-web-04/sub-buzz-31420-1525821073-3.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
+                            "price": 268
+                        },
+                        {
+                            "id": 5,
+                            "name": "Arroz tapado de carne.",
+                            "description": "El arroz tapado es un plato peruano que no solo es una completa delicia, sino que además es súper fácil de preparar.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/14/asset/buzzfeed-prod-web-05/sub-buzz-8158-1525891776-1.jpg?downsize=800:*&output-format=auto&output-quality=auto",
+                            "price": 256
+                        }
+                    ]
                 },
                 {
-                    "id": 2,
-                    "name": "Causa limeña de pollo, la torre del sabor.",
-                    "description": "Este clásico plato de la gastronomía peruana se disfruta frío, y consiste en un puré de patatas amarillas relleno de lo que gustes: puede ser pollo, pescado, o incluso solo vegetales.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/13/asset/buzzfeed-prod-web-03/sub-buzz-19641-1525887724-7.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
-                    "price": 230
+                    "cat" : "Pescados",
+                    "menu" : [
+                        {
+                            "id": 3,
+                            "name": "Bocaditos de salmón rellenos de causa.",
+                            "description": "Esta es una versión gourmet del histórico y tradicional plato peruano que vimos arriba. Es ideal para aperitivos de fiesta o, simplemente, cuando hiciste una causa limeña y te sobró.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/17/asset/buzzfeed-prod-web-02/sub-buzz-18794-1525902586-1.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
+                            "price": 323
+                        },
+                        {
+                            "id": 4,
+                            "name": "BOCATA DE CALAMARES (España)",
+                            "description": "Calamares rebozados en harina y fritos en aceite, mejor de oliva; Exquisito y económico.",
+                            "image": "",
+                            "price": 183
+                        }
+                    ]
                 },
                 {
-                    "id": 3,
-                    "name": "Bocaditos de salmón rellenos de causa.",
-                    "description": "Esta es una versión gourmet del histórico y tradicional plato peruano que vimos arriba. Es ideal para aperitivos de fiesta o, simplemente, cuando hiciste una causa limeña y te sobró.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/17/asset/buzzfeed-prod-web-02/sub-buzz-18794-1525902586-1.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
-                    "price": 323
-                },
-                {
-                    "id": 4,
-                    "name": "BOCATA DE CALAMARES (España)",
-                    "description": "Calamares rebozados en harina y fritos en aceite, mejor de oliva; Exquisito y económico.",
-                    "image": "",
-                    "price": 183
-                },
-                {
-                    "id": 5,
-                    "name": "Arroz tapado de carne.",
-                    "description": "El arroz tapado es un plato peruano que no solo es una completa delicia, sino que además es súper fácil de preparar.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/14/asset/buzzfeed-prod-web-05/sub-buzz-8158-1525891776-1.jpg?downsize=800:*&output-format=auto&output-quality=auto",
-                    "price": 256
+                    "cat" : "Pollo",
+                    "menu" : [
+                        {
+                            "id": 2,
+                            "name": "Causa limeña de pollo, la torre del sabor.",
+                            "description": "Este clásico plato de la gastronomía peruana se disfruta frío, y consiste en un puré de patatas amarillas relleno de lo que gustes: puede ser pollo, pescado, o incluso solo vegetales.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2018-05/9/13/asset/buzzfeed-prod-web-03/sub-buzz-19641-1525887724-7.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto",
+                            "price": 230
+                        }
+                    ]
                 }
             ]
         },
@@ -300,39 +390,54 @@
             "description": "Comida Thailandesa, Carnes, Ensaladas.",
             "food": [
                 {
-                    "id": 1,
-                    "name": "Tallarines Chinos",
-                    "description": "El aceite de sésamo es un ingrediente importante para que estos tallarines te queden como de restaurante.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr05/original-grid-image-20993-1457120411-6.jpg?crop=480:480;80,0&downsize=600:*&output-format=auto&output-quality=auto",
-                    "price": 210
+                    "cat" : "Pollo",
+                    "menu" : [
+                        {
+                            "id": 2,
+                            "name": "Un cítrico y sabrosito pollo con piña.",
+                            "description": "Si te gusta la comida china, el pollo a la naranja lo has comido hasta el cansancio... pero lo que debes saber es que puedes usar otros jugos cítricos para darle sabor a ese pollo especial que quieres preparar.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/13/enhanced/webdr11/original-grid-image-27110-1457116824-7.jpg?crop=527:791;0,-1&downsize=400:*&output-format=auto&output-quality=auto",
+                            "price": 257
+                        },
+                        {
+                            "id": 4,
+                            "name": "Un divino pollo agridulce. Yummy.",
+                            "description": "Es prácticamente imposible odiar el sabor de la salsa agridulce, es algo que está hecho para alegrarlos a todos por igual.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr02/original-grid-image-31072-1457119091-6.jpg?crop=446:446;147,0&downsize=600:*&output-format=auto&output-quality=auto",
+                            "price": 280
+                        },
+                        {
+                            "id": 3,
+                            "name": "Arroz chino tres delicias con pollo al limón",
+                            "description": "Camarones, huevo, jamoncito y tus vegetales de confianza, todo esto salteado y usando una base de arroz.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/15/enhanced/webdr09/original-grid-image-27274-1457121968-6.jpg?crop=650:650;0,62&downsize=400:*&output-format=auto&output-quality=auto",
+                            "price": 227
+                        }
+                    ]
                 },
                 {
-                    "id": 2,
-                    "name": "Un cítrico y sabrosito pollo con piña.",
-                    "description": "Si te gusta la comida china, el pollo a la naranja lo has comido hasta el cansancio... pero lo que debes saber es que puedes usar otros jugos cítricos para darle sabor a ese pollo especial que quieres preparar.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/13/enhanced/webdr11/original-grid-image-27110-1457116824-7.jpg?crop=527:791;0,-1&downsize=400:*&output-format=auto&output-quality=auto",
-                    "price": 257
+                    "cat" : "Pastas",
+                    "menu" : [
+                        {
+                            "id": 1,
+                            "name": "Tallarines Chinos",
+                            "description": "El aceite de sésamo es un ingrediente importante para que estos tallarines te queden como de restaurante.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr05/original-grid-image-20993-1457120411-6.jpg?crop=480:480;80,0&downsize=600:*&output-format=auto&output-quality=auto",
+                            "price": 210
+                        }
+                    ]
                 },
                 {
-                    "id": 3,
-                    "name": "Arroz chino tres delicias",
-                    "description": "Camarones, huevo, jamoncito y tus vegetales de confianza, todo esto salteado y usando una base de arroz.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/15/enhanced/webdr09/original-grid-image-27274-1457121968-6.jpg?crop=650:650;0,62&downsize=400:*&output-format=auto&output-quality=auto",
-                    "price": 227
-                },
-                {
-                    "id": 4,
-                    "name": "Un divino pollo agridulce. Yummy.",
-                    "description": "Es prácticamente imposible odiar el sabor de la salsa agridulce, es algo que está hecho para alegrarlos a todos por igual.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr02/original-grid-image-31072-1457119091-6.jpg?crop=446:446;147,0&downsize=600:*&output-format=auto&output-quality=auto",
-                    "price": 280
-                },
-                {
-                    "id": 5,
-                    "name": "Un calientita sopa de maíz y pollo, para el alma.",
-                    "description": "Qué bien le cae esta sopita al cuerpo, y ni hablar del sabor que le regala a tu paladar. La idea es hacer un sencillo caldito con pedazos de pollo, ajo y jengibre.",
-                    "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr04/original-grid-image-15396-1457119462-15.jpg?crop=683:683;7,0&downsize=400:*&output-format=auto&output-quality=auto",
-                    "price": 170
+                    "cat" : "Sopas",
+                    "menu" : [
+                        {
+                            "id": 5,
+                            "name": "Un calientita sopa de maíz y pollo, para el alma.",
+                            "description": "Qué bien le cae esta sopita al cuerpo, y ni hablar del sabor que le regala a tu paladar. La idea es hacer un sencillo caldito con pedazos de pollo, ajo y jengibre.",
+                            "image": "https://img.buzzfeed.com/buzzfeed-static/static/2016-03/4/14/enhanced/webdr04/original-grid-image-15396-1457119462-15.jpg?crop=683:683;7,0&downsize=400:*&output-format=auto&output-quality=auto",
+                            "price": 170
+                        }
+                    ]
                 }
             ]
         },
@@ -342,39 +447,44 @@
             "description": "Parrilla, Tortillas, Ensaladas, Pizza.",
             "food": [
                 {
-                    "id": 1,
-                    "name": "Carne con Aceitunas",
-                    "description": "Carne, aceitunas, cebolla y morrón",
-                    "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0001.png",
-                    "price": 55
-                },
-                {
-                    "id": 2,
-                    "name": "Carne Criolla",
-                    "description": "Carne cortada al cuchillo, cebolla y morrón",
-                    "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0002.png",
-                    "price": 55
-                },
-                {
-                    "id": 3,
-                    "name": "Carne con Pasas",
-                    "description": "Carne, cebolla, morrón y pasas de uva.",
-                    "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0003.png",
-                    "price": 55
-                },
-                {
-                    "id": 4,
-                    "name": "Carne",
-                    "description": "Carne, cebolla y morrón",
-                    "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0004.png",
-                    "price": 55
-                },
-                {
-                    "id": 5,
-                    "name": "Carne Chilena",
-                    "description": "Carne, aceitunas, cebolla, morrón y picante.",
-                    "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0006.png",
-                    "price": 55
+                    "cat" : "Carnes",
+                    "menu" : [
+                        {
+                            "id": 1,
+                            "name": "Carne con Aceitunas",
+                            "description": "Carne, aceitunas, cebolla y morrón",
+                            "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0001.png",
+                            "price": 55
+                        },
+                        {
+                            "id": 2,
+                            "name": "Carne Criolla",
+                            "description": "Carne cortada al cuchillo, cebolla y morrón",
+                            "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0002.png",
+                            "price": 55
+                        },
+                        {
+                            "id": 3,
+                            "name": "Carne con Pasas",
+                            "description": "Carne, cebolla, morrón y pasas de uva.",
+                            "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0003.png",
+                            "price": 55
+                        },
+                        {
+                            "id": 4,
+                            "name": "Carne",
+                            "description": "Carne, cebolla y morrón",
+                            "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0004.png",
+                            "price": 55
+                        },
+                        {
+                            "id": 5,
+                            "name": "Carne Chilena",
+                            "description": "Carne, aceitunas, cebolla, morrón y picante.",
+                            "image": "https://bocatti.uy/imagenes/img_contenido/productos/a/0006.png",
+                            "price": 55
+                        }
+                    ]
                 }
             ]
         },
@@ -384,39 +494,49 @@
             "description": "Rotisería, especialidad en minutas, milanesas, pizzas y pastas.",
             "food": [
                 {
-                    "id": 1,
-                    "name": "Asado",
-                    "description": "Uruguay tiene un récord por el asado más grande del mundo, haciendo honor a una tradición que llega de la época de los gauchos.",
-                    "image": "https://republica.com.uy/wp-content/uploads/2014/07/Asado.jpg",
-                    "price": 273
+                    "cat" : "Carnes",
+                    "menu" : [
+                        {
+                            "id": 1,
+                            "name": "Asado",
+                            "description": "Uruguay tiene un récord por el asado más grande del mundo, haciendo honor a una tradición que llega de la época de los gauchos.",
+                            "image": "https://republica.com.uy/wp-content/uploads/2014/07/Asado.jpg",
+                            "price": 273
+                        },
+                        {
+                            "id": 2,
+                            "name": "Chivito",
+                            "description": "Este emparedado de carne de lomo y diversos ingredientes como ser queso, jamón, tomate, lechuga, aceitunas, mayonesa.",
+                            "image": "https://republica.com.uy/wp-content/uploads/2014/07/Chivito.jpg",
+                            "price": 350
+                        },
+                        {
+                            "id": 3,
+                            "name": "Milanesa",
+                            "description": "Frita, al horno, al pan con lechuga y tomate o a la napolitana (con salsa de tomate, jamón y muzzarella), la milanesa de carne es una de las comidas...",
+                            "image": "https://republica.com.uy/wp-content/uploads/2014/07/Milanesa.jpg",
+                            "price": 333
+                        },
+                        {
+                            "id": 4,
+                            "name": "Panchos",
+                            "description": "Hot dog, perrito caliente, frankfurter… Este integrante del menú tiene varios nombres en todas partes del mundo, pero aquí es el pancho.",
+                            "image": "https://republica.com.uy/wp-content/uploads/2014/07/Pancho.jpg",
+                            "price": 57
+                        }
+                    ]
                 },
                 {
-                    "id": 2,
-                    "name": "Chivito",
-                    "description": "Este emparedado de carne de lomo y diversos ingredientes como ser queso, jamón, tomate, lechuga, aceitunas, mayonesa.",
-                    "image": "https://republica.com.uy/wp-content/uploads/2014/07/Chivito.jpg",
-                    "price": 350
-                },
-                {
-                    "id": 3,
-                    "name": "Milanesa",
-                    "description": "Frita, al horno, al pan con lechuga y tomate o a la napolitana (con salsa de tomate, jamón y muzzarella), la milanesa de carne es una de las comidas...",
-                    "image": "https://republica.com.uy/wp-content/uploads/2014/07/Milanesa.jpg",
-                    "price": 333
-                },
-                {
-                    "id": 4,
-                    "name": "Panchos",
-                    "description": "Hot dog, perrito caliente, frankfurter… Este integrante del menú tiene varios nombres en todas partes del mundo, pero aquí es el pancho.",
-                    "image": "https://republica.com.uy/wp-content/uploads/2014/07/Pancho.jpg",
-                    "price": 57
-                },
-                {
-                    "id": 5,
-                    "name": "Pizza y fainá",
-                    "description": "La influencia italiana en Uruguay se hace aún más notoria en la cantidad de pizzerías y fábricas de pasta que se encuentran dispersas por todo el país.",
-                    "image": "https://republica.com.uy/wp-content/uploads/2014/07/pizza-faina.jpg",
-                    "price": 180
+                    "cat" : "Pizzas",
+                    "menu" : [
+                        {
+                            "id": 5,
+                            "name": "Pizza y fainá",
+                            "description": "La influencia italiana en Uruguay se hace aún más notoria en la cantidad de pizzerías y fábricas de pasta que se encuentran dispersas por todo el país.",
+                            "image": "https://republica.com.uy/wp-content/uploads/2014/07/pizza-faina.jpg",
+                            "price": 180
+                        }
+                    ]
                 }
             ]
         }
